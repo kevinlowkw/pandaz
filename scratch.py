@@ -4,7 +4,7 @@ import csv
 import os
 
 
-df = pd.read_excel (r'/Users/Kevin/PycharmProjects/pandazz/FlashX.xls')
+df = pd.read_excel (r'/Users/Kevin/PycharmProjects/pandaz/FlashX.xls')
 
 
 def countLyra(n):
@@ -132,3 +132,5 @@ exportHero('FlashX')
 # z = df.iloc[:,1:5]
 #
 # print (z.head())
+
+print ('end')
